@@ -59,6 +59,7 @@
 
 .videoSobre-video{
     flex-grow: 2;
+    flex-shrink: 2;
 }
 
 .videoSobre-sobre-list{
@@ -110,4 +111,8 @@
     
     }
 
+    .videoSobre .container {
+        flex-direction: column;
+    }
+    
 }
